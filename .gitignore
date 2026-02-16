@@ -1,0 +1,37 @@
+# Exclude ALL except build and specific docs
+
+# Exclude source code
+client/src/
+server/
+
+# Exclude all docs except 3 specific files
+docs/*
+!docs/api/
+docs/api/*
+!docs/api/API_DOCUMENTATION.md
+!docs/architecture/
+docs/architecture/*
+!docs/architecture/SYSTEM_OVERVIEW.md
+!docs/development/
+docs/development/*
+!docs/development/DEVELOPMENT_STANDARDS.md
+
+# Exclude development files
+node_modules/
+*.log
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+
+# Exclude other files
+.github/
+*.md
+!README.md
+*.zip
+*.tar.gz
+clock2/
+SERVER_DEPLOY_COMMANDS.md
+QUICK_DEPLOY.md
+.gitignore.demo
